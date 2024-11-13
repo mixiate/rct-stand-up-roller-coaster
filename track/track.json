@@ -1,0 +1,69 @@
+{
+    "flags": [
+        "separate_tie"
+    ],
+    "sections": [
+        "zero_g_rolls"
+    ],
+    "all_new_sections": [
+        "steep_slopes",
+        "vertical_slopes",
+        "sloped_turns",
+        "banked_sloped_turns",
+        "large_sloped_turns",
+        "large_banked_sloped_turns",
+        "small_slope_transitions",
+        "large_slope_transitions",
+        "inline_twists",
+        "barrel_rolls",
+        "quarter_loops",
+        "large_corkscrews",
+        "medium_half_loops",
+        "large_half_loops",
+        "zero_g_rolls",
+        "turn_bank_transitions"
+    ],
+    "z_offset": 8,
+    "length": 0.25,
+    "masks": "default",
+    "models": {
+        "track": "track/track.obj",
+        "tie": "track/tie.obj",
+        "mask": "track/mask.obj"
+    },
+    "lights": [
+        { "type": "diffuse", "shadow": true, "direction": [1.0, 0.575, -1.0], "strength": 1.0 },
+        { "type": "specular", "shadow": true, "direction": [1.0, 0.575, -1.0], "strength": 1.0 },
+
+        { "type": "diffuse", "shadow": false, "direction": [-1.0, 0.5, 0.0], "strength": 0.09 },
+        { "type": "diffuse", "shadow": false, "direction": [1.0, 0.5, 0.0], "strength": 0.09 },
+        { "type": "diffuse", "shadow": false, "direction": [0.0, 0.5, 1.0], "strength": 0.09 },
+        { "type": "diffuse", "shadow": false, "direction": [0.0, 0.5, -1.0], "strength": 0.09 },
+
+        { "type": "diffuse", "shadow": false, "direction": [-1.0, 0.5, -1.0], "strength": 0.09 },
+        { "type": "diffuse", "shadow": false, "direction": [-1.0, 0.5, 1.0], "strength": 0.09 },
+        { "type": "diffuse", "shadow": false, "direction": [1.0, 0.5, -1.0], "strength": 0.09 },
+        { "type": "diffuse", "shadow": false, "direction": [1.0, 0.5, 1.0], "strength": 0.09 },
+
+        { "type": "diffuse", "shadow": false, "direction": [0.0, 1.0, 0.0], "strength": 0.05 },
+        { "type": "diffuse", "shadow": false, "direction": [0.0, -1.0, 0.0], "strength": 0.15 }
+    ],
+    "offsets": {
+        "flat": [ 0, 0, 0, -0.5, 0, 0, 0, -0.5 ],
+        "gentle": [ 0, 0, -0.5, -1, 0, -0.5, 0.5, -1 ],
+        "steep": [ 0.3, 0, 0, -0.5, 0, -0.5, 0, -1 ],
+        "bank": [ 0.75, -1, 0, -1, 1.25, 0.75, 0, 0 ],
+        "gentle_bank": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+        "inverted": [ 0, -1.5, 0, -2, 0, -1.5, 0, -2 ],
+        "diagonal": [ 0, -0.25, -0.25, -1, 0, -0.25, 0.25, -1 ],
+        "diagonal_gentle": [ 0, -0.5, -0.5, -1, 0, -0.9, 0.5, -1 ],
+        "diagonal_bank": [ 0, -0.75, -1.5, 0, 0, 0.5, 0, 0 ],
+        "diagonal_gentle_bank": [ 0, 0, -1.5, 0, 0, 0, 0, 0 ]
+    },
+    "edge_distance": 1024,
+    "base_directory": "C:/files/rct-stand-up-roller-coaster/track/",
+    "masks_directory": "C:/Files/RCTGen/TrackRender/masks/",
+    "sprite_directory": "track/standup/",
+    "spritefile_in": "sprites_old.json",
+    "spritefile_out": "sprites.json"
+}

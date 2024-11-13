@@ -1,0 +1,10 @@
+newmtl Remap1_DarkEdge_NoAO
+Ns 6.0
+Kd 0.0 0.3 0.0
+Ks 1.0 1.0 1.0
+
+newmtl Remap2_DarkEdge_NoAO
+Ns 3.0
+Kd 0.2 0.0 0.0
+Ks 1.0 1.0 1.0
+Ka 0.15 0.15 0.15
